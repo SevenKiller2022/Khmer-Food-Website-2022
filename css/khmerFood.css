@@ -1,0 +1,289 @@
+
+   
+    
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+
+    scroll-behavior: smooth;
+    font-family: 'Battambang', cursive;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    background: lightblue;
+    border-radius: 15px;
+    padding: 7px;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+.navbar{
+    box-shadow: 0px 0px 6px 0px lightgray;
+    background: white;
+    position: relative;
+}
+
+/*Menu List*/
+
+.menu-dropdown{
+    display: none;
+    position: absolute;
+    font-weight: bold;
+
+}
+.menu-dropdown ul{
+    list-style-type: none;
+    background: lightskyblue;
+    box-shadow: 0px 0px 6px 0px lightgray;
+    transition: .5s;
+    padding: 5px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.menu-dropdown ul li{
+    list-style-type: none;
+
+
+}
+.menu-dropdown ul li a{
+    font-weight: bold;
+    left: 0;
+    color: white;
+    font-size: 18px;
+}
+
+
+.menu-list:hover .menu-dropdown{
+    display: block;
+    scroll-behavior: smooth;
+    transition: 5s;
+}
+
+.menu-dropdown ul li a:hover{
+    color: palevioletred;
+    font-weight: bold;
+}
+
+
+
+.main-slide{
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.main-slide h2{
+    font-weight: bold;
+ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: mainImageAnimation 5s infinite;
+}
+.main-slide p{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
+    opacity: 80%;  
+}
+.main-slide span{
+    color: pink;
+}
+.main-slide img{
+    border-radius: 2rem;
+    box-shadow: 0px 0px 30px 0px aliceblue;
+    overflow: hidden;
+
+}
+.main-slide img:hover{
+    transform: rotate(20px);
+    transition: .5s;
+    padding: 10px 20px;
+}
+.main-slide .btn{
+    margin-left: 100px;
+    font-weight: bold;
+    padding: 10px 100px;
+    margin-bottom: 50px;
+    margin-right: auto;
+}
+.main-slide i{
+    animation: animation 3s infinite;
+}
+
+/*Menu*/
+.menu-title h4{
+    color:  lightblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+.menu-title span{
+    color: pink;
+    font-weight: bold;
+}
+
+.menu-section .head-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menu-section .menu-img{
+    width: 100%;
+    height: 100%;
+}
+
+ .subtitle{
+    opacity: 80%;
+}
+.add{
+    width: 100%;
+    height: 50%;
+}
+  .menu-pic{
+    overflow: hidden;
+ 
+
+}
+.menu-section  .menu-pic img{
+    cursor: pointer;
+    transition: .5s;  
+    border-radius: 1rem; 
+}
+.menu-section  .menu-pic:hover img{
+    transform: rotate(5.5deg) scale(1.2); 
+}
+
+ .design h4{
+    color: white;
+    font-weight: bold;
+    background: lightblue;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0.5rem 5rem;
+}
+
+
+/*Box*/
+.box{
+    box-shadow: 0px 0px 30px 0px lightgray;
+    margin-top: 20px;
+}
+
+.box:hover{
+    margin: -3px;
+    transition: .4s;
+    border-radius: 1rem;
+}
+
+.box h4{
+    color: gold;
+    font-weight: bold;
+}
+
+.order-section{
+    background: aliceblue;
+}
+.sub-bg span{
+    font-weight: bold;
+    font-size: 18px;
+}
+.sub-bg h5{
+    font-size: 15px;
+    opacity: 90%;
+    margin-top: 10px;
+}
+
+.order-section h2{
+    color: lightblue;
+    font-weight: bold;
+}
+.order-section h1{
+    color: darkblue;
+    font-weight: bold;
+}
+.order-section .span{
+    color:  lightblue;
+}
+
+.order-section img{
+    border-radius: 1rem;
+    box-shadow: 0px 0px 30px 0px lightgray;
+    animation: mainImageAnimation 5s infinite;
+}
+
+.footer{
+    background: lightskyblue;
+    bottom: 0;
+}
+
+.message{
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+}
+.footer{
+    align-items: center;
+
+}
+.footer ul{
+    font-size: 30px;
+    padding-left: 40px;
+}
+.footer ul li{
+    list-style-type: none;
+    align-items: center;
+    display: inline-block;
+    margin-left: 20px;
+ 
+}
+.footer p{
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.menu-section .btn:hover{
+    padding: 10px 15px;
+    transition: .4s;
+}
+
+.menu-section span{
+    font-weight: bold;
+}
+
+@keyframes mainImageAnimation{
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(2px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes animation{
+    0%{
+        transform: translateX(-40px);
+    }
+    50%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(-40px);
+    }
+}
+
+
+
+
+
+
+
